@@ -4,14 +4,21 @@ import Sidebar from './containers/sideBar';
 import Main from './containers/dashboard-main';
 import Login from './containers/Login';
 
+import Table2 from './containers/Table2';
+import data from './data.json';
+
 
 function App() {
+
+  
   return (
     <div>
         <Sidebar />;
-        <Main />;
+        {/* <Main />; */}
         {/* <Login />; */}
-        
+        {/* <TableList />; */}
+        {/* <TableListShow />; */}
+        <Table2 data = {data} />
     </div>    
   );
 }
