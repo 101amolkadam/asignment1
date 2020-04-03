@@ -5,6 +5,7 @@ import Dashboard from './containers/dashboard-main';
 // import Login from './containers/Login';
 import Table2 from './containers/Table2';
 import Login2 from './components/Login2';
+import UserProfile from './components/user-profile';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           {/* <Route path="/Login" exact component={Login} /> */}
           <Route path="/Login2" exact component={Login2} />
           <Route path="/Table2" exact component={Table2} />
+          <Route path="/user-profile" exact component={UserProfile} />
         </Switch>
       </div>
     </BrowserRouter>

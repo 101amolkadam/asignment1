@@ -16,7 +16,7 @@ const Sidebar = (props) => {
                 <p>Table list</p>
             </Link>
 
-            <Link to="">
+            <Link to="/user-profile">
                 <p>User Profile</p>
             </Link>
             
