@@ -1,5 +1,8 @@
 import React from 'react';
 import Navbar from '../components/navbar';
+import Card from '../components/dashboard/card';
+
+
 
 const Main = (props) => {
 
@@ -16,6 +19,7 @@ const Main = (props) => {
             </div>
             <h2>Asignment 1</h2>
             <p>This is asignment 1.</p>
+            <Card />
         </div>
     );
 }

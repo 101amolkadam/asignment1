@@ -16,7 +16,7 @@ const Table2 = (props) => {
 
                     <table class="table table-bordered" >
                         <thead>
-                            <tr>
+                            <tr>    
                                 <th>Firstname</th>
                                 <th>Lastname</th>
                                 <th>Email</th>

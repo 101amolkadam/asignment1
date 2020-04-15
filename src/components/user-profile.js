@@ -4,12 +4,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 const UserProfile = (props) => {
+
     const mystyle = {
         marginLeft: "250px",
         marginBottom: "20px",
         padding: "1px 1px",
         // height: "1000px",
     };
+    
     return (
         <div>
             <div style={{ margin: "0 0 40px 250px" }}>
@@ -30,7 +32,7 @@ const UserProfile = (props) => {
                                         <div className="col-md-6">
                                             <h6>About</h6>
                                             <p>
-                                                Web Designer, UI/UX Engineer
+                                                Web Designer, Full Stack Developer
 </p>
                                             <h6>Hobbies</h6>
                                             <p>
@@ -58,7 +60,7 @@ const UserProfile = (props) => {
                                                 <tbody>
                                                     <tr>
                                                         <td>
-                                                            <strong>Nikhil</strong> joined Project Team in <strong>`Collaboration`</strong>
+                                                            <strong>User</strong> joined Project Team in <strong>`Collaboration`</strong>
                                                         </td>
                                                     </tr>
                                                     {/* <tr>
